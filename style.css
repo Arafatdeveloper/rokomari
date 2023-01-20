@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.container-full{
+    width: 1200px;
+}
+.main-header{
+    background-color: #f5f6f5;
+}
+.container-section{
+    width: 1200px;
+    background-color: #f5f6f5;
+    z-index: 10;
+}
+.flex-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo-rokomari{
+    margin-left: 100px;
+}
+.container-section-2{
+    padding: 20px 0px;
+   
+}
+.second-section{
+    margin-top: 70px;
+    background-color: #f5f6f5;
+}
+.header-sing-in{
+    text-decoration: none;
+    border: 1px solid #212529;
+    padding: 10px;
+    color: #212529;
+    font-weight: 600;
+    margin-right: 100px;
+}
+.header-sing-in:hover{
+    background-color: #06ea96;
+    color: white;
+}
+.nav-item{
+    text-decoration: none;
+    margin-left: 60px;
+    color: #212529;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-underline{
+    position: relative;
+}
+.nav-underline::after{
+    content: "";
+    position: absolute;
+    background-color: #fe043c;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -8px;
+    transition: all 0.3s ease-in-out;
+
+}
+.nav-underline:hover::after{
+    width: 100%;
+    color: #fe043c;
+}
+    /* header end */
+.main-container{
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #f5f6f5;
+    padding: 25px;
+    border-radius: 10px;
+    height: 350px;
+}
+.Recently-Products{
+    margin-bottom: 40px;
+    color: #212529;
+}
+.book-images{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.image-size{
+    width: 180px;
+    height: 200px;
+}
+.image-size:hover{
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.nav-size{
+    width: 180px;
+    height: 250px;
+    border: 1px solid #212529;
+    margin-left: 8px;
+}
+.nav-size h4{
+    text-align: center;
+    color: #212529;
+}
+.nav-size p{
+    text-align: center;
+}
+.end-section{
+    width: 100%;
+    background-color: #f5f6f5;
+    padding: 30px;
+}
+.nav-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.communication-system{
+    text-decoration: none;
+    color:#212529;
+}
+.fa-whatsapp{
+    color: green;
+    font-size: 20px;
+}
+.fa-handshake{
+    font-size: 17px;
+}   
+.fa-envelope{
+    font-size: 17px;
+}
+.communication-system h6{
+    color: #6c7885;
+}
+.onnorokom-logo{
+    cursor: pointer;
+}
+.end-caption{
+    text-align: center;
+    margin: 20px 0px;
+}
